@@ -1,0 +1,23 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.31'
+}
+
+group 'com.ubertob.unlearnOOP'
+
+
+subprojects {
+    group 'com.ubertob.unlearnoop'
+    version = '1.0'
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    wrapper {
+        gradleVersion = "6.7"
+    }
+}
+

@@ -1,0 +1,13 @@
+rootProject.name = 'unlearnOOP'
+
+include 'exercises'
+include 'twowords'
+include 'zettai_step1_stories'
+include 'zettai_step2_http'
+include 'zettai_step3_events'
+include 'zettai_step4_projections'
+include 'zettai_step5_persistence'
+include 'zettai_step6_monitoring'
+
+
+
